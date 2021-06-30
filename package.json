@@ -1,0 +1,23 @@
+{
+  "name": "lt-cms-koa",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SongYong1412/lt-cms-koa.git"
+  },
+  "author": "SongYong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SongYong1412/lt-cms-koa/issues"
+  },
+  "homepage": "https://github.com/SongYong1412/lt-cms-koa#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0"
+  }
+}
