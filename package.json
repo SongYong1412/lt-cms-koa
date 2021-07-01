@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/SongYong1412/lt-cms-koa#readme",
   "dependencies": {
+    "egg-logger": "^2.6.1",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.1",
     "koa-router": "^10.0.0"
   }
