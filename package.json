@@ -20,6 +20,10 @@
     "egg-logger": "^2.6.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.1",
-    "koa-router": "^10.0.0"
+    "koa-router": "^10.0.0",
+    "stream-wormhole": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.3"
   }
 }
