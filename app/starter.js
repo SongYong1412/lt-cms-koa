@@ -16,4 +16,20 @@ function applyConfig () {
   for (const file of files) {
     config .getConfigFromFile(`app/config/${file}`);
   }
+  //加载其它配置文件
+  config.getConfigFromFile('app/extension/file/config.js');
+  config.getConfigFromFile('app/extension/socket/config.js');
 }
+
+const run = async () => {
+  applyConfig();
+  const { createApp } = require('./app');
+  const app = await createApp();
+  const port = config.getItem('port');
+  app.listen(port, () => {
+    console.log(`listening at http://localhost:${port}`);
+  });
+};
+
+//启动应用
+run();
